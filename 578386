@@ -1,0 +1,17 @@
+loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+
+local Window = Library.CreateLib("WORMFACE HACK V3 BY NAFI GAMER", "Ocean")) () 
+
+if game.PlaceId == 5942932659 then
+
+-- MAIN
+
+local Main = Window:NewTab("Main")
+
+local MainSection = Main:NewSection("Main")
+
+MainSection:NewButton("CLICK TO ON", "Makes you a NOOB", function()
+
+   loadstring(game:HttpGet(('https://raw.githubusercontent.com/NAFIGAMER8/wormsface-op-v-2/main/7589586')))()
+
+end)
